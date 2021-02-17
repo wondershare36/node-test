@@ -25,7 +25,7 @@ var server=http.createServer((req,res)=>{
   if(path === '/'){
     res.statusCode = 200
     res.setHeader('Content-Type', 'text/html;charset=utf-8')
-    res.write(`二哈`)
+    res.write(`哈哈哈`)
     res.end()
   } else if(path === '/x'){
     res.statusCode = 200
